@@ -17,21 +17,70 @@ const IndexPage = () => (
       </div>
       <ul role="list" id="homelist">
         <li>
-          <Link to="/page-2">
             <div id="outerlist">
               <div id="outerimglist">
-                <img
-                  id="imglist"
-                  src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format,compress&w=400" />
-              </div>
-              <div id="outerheaderlist">
-                <div id="innerheaderlist">
-                  <h3 id="linkheader">Page 2</h3>
-                  <p id="linkparagraph">Default Placeholder for a second page.</p>
-                </div>
+              <VideoPlayerJS
+            name={"https://tom.imgix.video/HLSadvantages.mp4?fm=hls"}
+            id="innervideo"
+        >
+        </VideoPlayerJS>
               </div>
             </div>
-          </Link>
+        </li>
+        <li>
+            <div id="outerlist">
+              <div id="outerimglist">
+              <VideoPlayerJS
+            name={"https://tom.imgix.video/gotopening.mp4?fm=hls"}
+            id="innervideo"
+        >
+        </VideoPlayerJS>
+              </div>
+            </div>
+        </li>
+        <li>
+            <div id="outerlist">
+              <div id="outerimglist">
+              <VideoPlayerJS
+            name={"https://tom.imgix.video/HLSadvantages.mp4?fm=hls"}
+            id="innervideo"
+        >
+        </VideoPlayerJS>
+              </div>
+            </div>
+        </li>
+        <li>
+            <div id="outerlist">
+              <div id="outerimglist">
+              <VideoPlayerJS
+            name={"https://tom.imgix.video/HLSadvantages.mp4?fm=hls"}
+            id="innervideo"
+        >
+        </VideoPlayerJS>
+              </div>
+            </div>
+        </li>
+        <li>
+            <div id="outerlist">
+              <div id="outerimglist">
+              <VideoPlayerJS
+            name={"https://tom.imgix.video/gotopening.mp4?fm=hls"}
+            id="innervideo"
+        >
+        </VideoPlayerJS>
+              </div>
+            </div>
+        </li>
+        <li>
+            <div id="outerlist">
+              <div id="outerimglist">
+              <VideoPlayerJS
+            name={"https://tom.imgix.video/HLSadvantages.mp4?fm=hls"}
+            id="innervideo"
+        >
+        </VideoPlayerJS>
+              </div>
+            </div>
         </li>
       </ul>
       </div>
